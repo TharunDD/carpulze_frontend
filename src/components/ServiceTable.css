@@ -1,0 +1,39 @@
+/* ServiceTable.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ddd; /* Increased border */
+    font-size: 16px; /* Increased font size */
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increased padding */
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  button {
+    padding: 8px 16px; /* Increased padding */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px; /* Increased border-radius */
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

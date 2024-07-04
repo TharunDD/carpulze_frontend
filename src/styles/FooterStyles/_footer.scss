@@ -1,0 +1,175 @@
+// @use "../global" as *;
+
+// footer {
+//   background-color: black; /* Change background color to black */
+//   padding: 10rem 0;
+// }
+
+// .footer-content {
+//   display: grid;
+//   color: white; /* Change text color to white */
+//   grid-template-columns: 27fr 21fr 21fr 21fr;
+//   gap: 8rem;
+//   justify-content: center;
+//   text-align: left;
+//   color: $text-black;
+
+//   @media (max-width: 1100px) {
+//     grid-template-columns: 1fr 1fr;
+//   }
+
+//   @media (max-width: 650px) {
+//     grid-template-columns: 1fr;
+//   }
+
+//   &__1 {
+//     list-style: none;
+
+//     @media (max-width: 650px) {
+//       text-align: center;
+//     }
+
+//     li {
+//       a {
+//         text-decoration: none;
+//         color: white; /* Change text color to white */
+//         transition: all 0.2s;
+
+//         &:hover {
+//           color: $text-orange;
+//         }
+//       }
+
+//       &:nth-child(1) {
+//         font-size: $h3-size;
+//         margin-bottom: 1.5rem;
+
+//         span {
+//           font-weight: 700;
+//         }
+//       }
+
+//       &:nth-child(2) {
+//         font-size: $p-size;
+//         color: $text-gray;
+//         line-height: 1.7;
+//         margin-bottom: 3rem;
+//       }
+
+//       &:nth-child(3),
+//       &:nth-child(4) {
+//         font-size: $p-size;
+//         font-family: $text-font;
+//         font-weight: 500;
+//         margin-bottom: 1rem;
+//       }
+//     }
+//   }
+
+//   &__2 {
+//     list-style: none;
+
+//     @media (max-width: 650px) {
+//       text-align: center;
+//     }
+
+//     a {
+//       text-decoration: none;
+//       color: white; /* Change text color to white */
+//       transition: all 0.2s;
+
+//       &:hover {
+//         color: $text-orange;
+//       }
+//     }
+
+//     li {
+//       font-size: $p-size;
+//       margin-bottom: 1rem;
+
+//       &:nth-child(1) {
+//         font-size: $h3-size;
+//         font-weight: 700;
+//         text-transform: uppercase;
+//         font-family: $titles-font;
+//         cursor: auto;
+//       }
+//     }
+
+//     input {
+//       font-family: $text-font;
+//       font-size: 14px;
+//       font-weight: 400;
+//       line-height: 26px;
+//       background-color: #ececec;
+//       border-width: 1px;
+//       border-color: transparent;
+//       padding: 10px 60px;
+//       outline: none;
+//       margin-top: 1rem;
+
+//       @media (max-width: 1100px) {
+//         width: 100%;
+//       }
+//     }
+//   }
+// }
+
+// .submit-email {
+//   text-decoration: none;
+//   color: white; /* Change text color to white */
+//   font-weight: 700;
+//   background-color: black; /* Change background color to black */
+//   padding: 1.5rem 2.5rem;
+//   border-radius: 0.3rem;
+//   box-shadow: 0 10px 15px 0 rgb(255 83 48 / 25%);
+//   transition: all 0.3s;
+//   border: 2px solid rgb(77, 118, 230);
+//   font-size: 1.6rem;
+//   width: fit-content;
+//   cursor: pointer;
+//   width: 100%;
+
+//   &:hover {
+//     box-shadow: 0 10px 15px 0 rgb(77, 118, 230);
+//     background-color: blue; /* Change hover background color to blue */
+//   }
+// }
+
+/* footer.css */
+
+footer {
+  background-color: #333; /* Set your desired background color */
+  color: white; /* Set the text color to white */
+  padding: 20px 0; /* Add padding for better spacing */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Style for the first column in the footer */
+.footer-content__1 {
+  list-style: none;
+}
+
+/* Style for the second, third, and fourth columns in the footer */
+.footer-content__2 {
+  list-style: none;
+  flex: 1;
+  max-width: 200px; /* Adjust the max-width based on your design */
+}
+
+/* Style for the links in the footer */
+.footer-content__2 a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Add a smooth transition effect for hover */
+}
+
+/* Hover effect for the links */
+.footer-content__2 a:hover {
+  color: blue; /* Set the desired hover color */
+}
